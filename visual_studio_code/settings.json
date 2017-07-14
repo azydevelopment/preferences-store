@@ -1,0 +1,7 @@
+{
+    "window.zoomLevel": 0,
+    "terminal.integrated.shell.windows": "C:\\Windows\\sysnative\\cmd.exe",
+    "workbench.sideBar.location": "left",
+    "terminal.integrated.cursorBlinking": true,
+    "editor.tabCompletion": true
+}

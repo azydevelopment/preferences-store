@@ -1,0 +1,96 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+	{
+		"key": "ctrl+d",
+		"command": "editor.action.deleteLines",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "ctrl+shift+c",
+		"command": "editor.action.commentLine",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "alt+left",
+		"command": "cursorHome",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "alt+right",
+		"command": "cursorEnd",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "ctrl+shift+f",
+		"command": "editor.action.format",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "shift+space",
+		"command": "workbench.action.quickOpen"
+	},
+	{
+		"key": "shift+space",
+		"command": "workbench.action.quickOpenNavigateNext",
+		"when": "inQuickOpen"
+	},
+	{
+		"key": "ctrl+g",
+		"command": "workbench.view.git"
+	},
+	{
+		"key": "ctrl+e",
+		"command": "workbench.view.explorer"
+	},
+	{
+		"key": "alt+shift+r",
+		"command": "editor.action.rename",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "alt+2",
+		"command": "workbench.action.nextEditor"
+	},
+	{
+		"key": "alt+1",
+		"command": "workbench.action.previousEditor"
+	},
+	{
+		"key": "ctrl+w",
+		"command": "workbench.action.closeActiveEditor"
+	},
+	{
+		"key": "alt+w",
+		"command": "editor.foldAll"
+	},
+	{
+		"key": "alt+q",
+		"command": "editor.unfoldAll"
+	},
+	{
+		"key": "alt+`",
+		"command": "workbench.action.terminal.toggleTerminal"
+	},
+	{
+		"key": "alt+c",
+		"command": "workbench.action.toggleSidebarVisibility"
+	},
+	{
+		"key": "alt+d",
+		"command": "workbench.files.action.compareFileWith"
+	},
+	{
+		"key": "ctrl+t",
+		"command": "workbench.action.toggleSidebarVisibility"
+	},
+	{
+		"key": "ctrl+b",
+		"command": "workbench.action.tasks.build"
+	},
+	{
+		"key": "ctrl+f5",
+		"command": "workbench.action.debug.run",
+		"when": "!inDebugMode"
+	}
+
+]
