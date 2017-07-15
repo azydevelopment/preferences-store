@@ -26,20 +26,11 @@
 		"when": "editorTextFocus"
 	},
 	{
-		"key": "shift+space",
-		"command": "workbench.action.quickOpen"
-	},
-	{
-		"key": "shift+space",
-		"command": "workbench.action.quickOpenNavigateNext",
-		"when": "inQuickOpen"
-	},
-	{
 		"key": "ctrl+g",
 		"command": "workbench.view.git"
 	},
 	{
-		"key": "ctrl+e",
+		"key": "shift+space",
 		"command": "workbench.view.explorer"
 	},
 	{
@@ -91,6 +82,29 @@
 		"key": "ctrl+f5",
 		"command": "workbench.action.debug.run",
 		"when": "!inDebugMode"
-	}
-
+	},
+	{
+		"key": "ctrl+down",
+		"command": "cursorPageDown",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "ctrl+up",
+		"command": "cursorPageUp",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "ctrl+shift+space",
+		"command": "workbench.action.showCommands"
+	},
+	{
+		"key": "alt+a",
+		"command": "C_Cpp.SwitchHeaderSource",
+		"when": "editorTextFocus && editorLangId == 'cpp'"
+	},
+	{
+		"key": "alt+a",
+		"command": "C_Cpp.SwitchHeaderSource",
+		"when": "editorTextFocus && editorLangId == 'c'"
+	},
 ]

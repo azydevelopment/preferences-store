@@ -3,5 +3,11 @@
     "terminal.integrated.shell.windows": "C:\\Windows\\sysnative\\cmd.exe",
     "workbench.sideBar.location": "left",
     "terminal.integrated.cursorBlinking": true,
-    "editor.tabCompletion": true
+    "editor.tabCompletion": true,
+    "editor.formatOnType": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "workbench.colorTheme": "Visual Studio Light",
+    "C_Cpp.clang_format_path": "C:/Program Files/LLVM/bin/clang-format.exe",
+    "C_Cpp.clang_format_style": "file"
 }
