@@ -1,4 +1,4 @@
-# core-data-coding
+# preferences-store
 TLDR: A place where I keep my development environment preferences backed up.
 
 ## The context
