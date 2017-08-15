@@ -112,4 +112,8 @@
 		"command": "C_Cpp.SwitchHeaderSource",
 		"when": "editorTextFocus && editorLangId == 'c'"
 	},
+	{
+		"key": "shift+t",
+		"command": "workbench.action.toggleSidebarVisibility"
+	}
 ]
