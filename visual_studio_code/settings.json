@@ -6,10 +6,11 @@
     "editor.formatOnType": false,
     "editor.formatOnSave": true,
     "editor.formatOnPaste": true,
+    "editor.minimap.enabled": false,
     "C_Cpp.intelliSenseEngine": "Default",
     "C_Cpp.clang_format_path": "C:/Program Files/LLVM/bin/clang-format.exe",
     "C_Cpp.clang_format_style": "file",
     "workbench.colorTheme": "Visual Studio Light",
     "editor.acceptSuggestionOnEnter": "smart",
-    "git.enableSmartCommit": true,
+    "git.enableSmartCommit": true
 }
