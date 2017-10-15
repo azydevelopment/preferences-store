@@ -12,6 +12,5 @@
     "C_Cpp.clang_format_style": "file",
     "workbench.colorTheme": "Visual Studio Light",
     "editor.acceptSuggestionOnEnter": "smart",
-    "git.enableSmartCommit": true,
-    "markdown.preview.scrollPreviewWithEditorSelection": true
+    "git.enableSmartCommit": true
 }

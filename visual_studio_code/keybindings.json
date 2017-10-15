@@ -1,133 +1,115 @@
 // Place your key bindings in this file to overwrite the defaults
 [
-	{
-		"key": "ctrl+d",
-		"command": "editor.action.deleteLines",
-		"when": "editorTextFocus"
-	},
-	{
-		"key": "ctrl+shift+c",
-		"command": "editor.action.commentLine",
-		"when": "editorTextFocus"
-	},
-	{
-		"key": "alt+left",
-		"command": "cursorHome",
-		"when": "editorTextFocus"
-	},
-	{
-		"key": "alt+right",
-		"command": "cursorEnd",
-		"when": "editorTextFocus"
-	},
-	{
-		"key": "ctrl+shift+f",
-		"command": "editor.action.format",
-		"when": "editorTextFocus"
-	},
-	{
-		"key": "ctrl+g",
-		"command": "workbench.view.git"
-	},
-	{
-		"key": "shift+space",
-		"command": "workbench.view.explorer"
-	},
-	{
-		"key": "alt+shift+f",
-		"command": "workbench.view.search",
-		"when": "!searchViewletVisible"
-	},
-	{
-		"key": "alt+shift+r",
-		"command": "editor.action.rename",
-		"when": "editorTextFocus"
-	},
-	{
-		"key": "alt+2",
-		"command": "workbench.action.nextEditor"
-	},
-	{
-		"key": "alt+1",
-		"command": "workbench.action.previousEditor"
-	},
-	{
-		"key": "ctrl+w",
-		"command": "workbench.action.closeActiveEditor"
-	},
-	{
-		"key": "alt+w",
-		"command": "editor.foldAll"
-	},
-	{
-		"key": "alt+q",
-		"command": "editor.unfoldAll"
-	},
-	{
-		"key": "alt+`",
-		"command": "workbench.action.terminal.toggleTerminal"
-	},
-	{
-		"key": "alt+c",
-		"command": "workbench.action.toggleSidebarVisibility"
-	},
-	{
-		"key": "alt+d",
-		"command": "workbench.files.action.compareFileWith"
-	},
-	{
-		"key": "ctrl+t",
-		"command": "workbench.action.tasks.runTask"
-	},
-	{
-		"key": "ctrl+b",
-		"command": "workbench.action.tasks.build"
-	},
-	{
-		"key": "ctrl+f5",
-		"command": "workbench.action.debug.run",
-		"when": "!inDebugMode"
-	},
-	{
-		"key": "ctrl+down",
-		"command": "cursorPageDown",
-		"when": "editorTextFocus"
-	},
-	{
-		"key": "ctrl+up",
-		"command": "cursorPageUp",
-		"when": "editorTextFocus"
-	},
-	{
-		"key": "ctrl+shift+space",
-		"command": "workbench.action.showCommands"
-	},
-	{
-		"key": "alt+a",
-		"command": "C_Cpp.SwitchHeaderSource",
-		"when": "editorTextFocus && editorLangId == 'cpp'"
-	},
-	{
-		"key": "alt+a",
-		"command": "C_Cpp.SwitchHeaderSource",
-		"when": "editorTextFocus && editorLangId == 'c'"
-	},
-	{
-		"key": "ctrl+shift+t",
-		"command": "workbench.action.toggleSidebarVisibility"
-	},
-	{
-		"key": "ctrl+r",
-		"command": "PowerShell.StartDebugSession",
-		"when": "resourceLangId == powershell"
-	},
-	{
-		"key": "ctrl+r",
-		"command": "-workbench.action.openRecent"
-	},
-	{
-		"key": "ctrl+r",
-		"command": "-workbench.action.quickOpenNavigateNextInRecentFilesPicker",
-		"when": "inQuickOpen && inRecentFilesPicker"
-	}
+    {
+        "key": "ctrl+d",
+        "command": "editor.action.deleteLines",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+c",
+        "command": "editor.action.commentLine",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+left",
+        "command": "cursorHome",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+right",
+        "command": "cursorEnd",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+f",
+        "command": "editor.action.format",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+g",
+        "command": "workbench.view.git"
+    },
+    {
+        "key": "shift+space",
+        "command": "workbench.view.explorer"
+    },
+    {
+        "key": "alt+shift+f",
+        "command": "workbench.view.search",
+        "when": "!searchViewletVisible"
+    },
+    {
+        "key": "alt+shift+r",
+        "command": "editor.action.rename",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+2",
+        "command": "workbench.action.nextEditor"
+    },
+    {
+        "key": "alt+1",
+        "command": "workbench.action.previousEditor"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "workbench.action.closeActiveEditor"
+    },
+    {
+        "key": "alt+w",
+        "command": "editor.foldAll"
+    },
+    {
+        "key": "alt+q",
+        "command": "editor.unfoldAll"
+    },
+    {
+        "key": "alt+`",
+        "command": "workbench.action.terminal.toggleTerminal"
+    },
+    {
+        "key": "alt+c",
+        "command": "workbench.action.toggleSidebarVisibility"
+    },
+    {
+        "key": "alt+d",
+        "command": "workbench.files.action.compareFileWith"
+    },
+    {
+        "key": "ctrl+t",
+        "command": "workbench.action.tasks.runTask"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "workbench.action.tasks.build"
+    },
+    {
+        "key": "ctrl+f5",
+        "command": "workbench.action.debug.run",
+        "when": "!inDebugMode"
+    },
+    {
+        "key": "ctrl+down",
+        "command": "cursorPageDown",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+up",
+        "command": "cursorPageUp",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+space",
+        "command": "workbench.action.showCommands"
+    },
+    {
+        "key": "alt+a",
+        "command": "C_Cpp.SwitchHeaderSource",
+        "when": "editorTextFocus && editorLangId == 'cpp'"
+    },
+    {
+        "key": "alt+a",
+        "command": "C_Cpp.SwitchHeaderSource",
+        "when": "editorTextFocus && editorLangId == 'c'"
+    }
 ]
