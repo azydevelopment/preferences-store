@@ -113,7 +113,21 @@
 		"when": "editorTextFocus && editorLangId == 'c'"
 	},
 	{
-		"key": "shift+t",
+		"key": "ctrl+shift+t",
 		"command": "workbench.action.toggleSidebarVisibility"
+	},
+	{
+		"key": "ctrl+r",
+		"command": "PowerShell.StartDebugSession",
+		"when": "resourceLangId == powershell"
+	},
+	{
+		"key": "ctrl+r",
+		"command": "-workbench.action.openRecent"
+	},
+	{
+		"key": "ctrl+r",
+		"command": "-workbench.action.quickOpenNavigateNextInRecentFilesPicker",
+		"when": "inQuickOpen && inRecentFilesPicker"
 	}
 ]
