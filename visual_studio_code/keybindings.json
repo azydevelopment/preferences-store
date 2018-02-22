@@ -118,8 +118,8 @@
     },
     {
         "key": "ctrl+r",
-        "command": "PowerShell.StartDebugSession",
-        "when": "resourceLangId == powershell"
+        "command": "workbench.action.debug.start",
+        "when": "resourceLangId == powershell && !inDebugMode"
     },
     {
         "key": "ctrl+r",
