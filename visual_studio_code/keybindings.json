@@ -1,5 +1,6 @@
 // Place your key bindings in this file to overwrite the defaults
 [
+    // EDITING
     {
         "key": "ctrl+d",
         "command": "editor.action.deleteLines",
@@ -26,9 +27,29 @@
         "when": "editorTextFocus"
     },
     {
-        "key": "ctrl+g",
-        "command": "workbench.view.git"
+        "key": "alt+shift+r",
+        "command": "editor.action.rename",
+        "when": "editorTextFocus"
     },
+    {
+        "key": "alt+w",
+        "command": "editor.foldAll"
+    },
+    {
+        "key": "alt+q",
+        "command": "editor.unfoldAll"
+    },
+    {
+        "key": "ctrl+down",
+        "command": "cursorPageDown",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+up",
+        "command": "cursorPageUp",
+        "when": "editorTextFocus"
+    },
+    // ENVIRONMENT
     {
         "key": "shift+space",
         "command": "workbench.view.explorer"
@@ -39,29 +60,12 @@
         "when": "!searchViewletVisible"
     },
     {
-        "key": "alt+shift+r",
-        "command": "editor.action.rename",
-        "when": "editorTextFocus"
-    },
-    {
         "key": "alt+2",
         "command": "workbench.action.nextEditor"
     },
     {
         "key": "alt+1",
         "command": "workbench.action.previousEditor"
-    },
-    {
-        "key": "ctrl+w",
-        "command": "workbench.action.closeActiveEditor"
-    },
-    {
-        "key": "alt+w",
-        "command": "editor.foldAll"
-    },
-    {
-        "key": "alt+q",
-        "command": "editor.unfoldAll"
     },
     {
         "key": "alt+`",
@@ -76,6 +80,15 @@
         "command": "workbench.files.action.compareFileWith"
     },
     {
+        "key": "ctrl+shift+space",
+        "command": "workbench.action.showCommands"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "workbench.action.closeActiveEditor"
+    },
+    // BUILD AND RUN
+    {
         "key": "ctrl+t",
         "command": "workbench.action.tasks.runTask"
     },
@@ -84,54 +97,25 @@
         "command": "workbench.action.tasks.build"
     },
     {
-        "key": "ctrl+f5",
-        "command": "workbench.action.debug.run",
-        "when": "!inDebugMode"
+        "key": "ctrl+r",
+        "command": "workbench.action.debug.start",
+        "when": "resourceLangId == powershell && !inDebugMode"
     },
+    // TERMINAL
     {
-        "key": "ctrl+down",
-        "command": "cursorPageDown",
-        "when": "editorTextFocus"
+        "key": "ctrl+w",
+        "command": "workbench.action.terminal.kill",
+        "when": "!editorFocus"
     },
-    {
-        "key": "ctrl+up",
-        "command": "cursorPageUp",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "ctrl+shift+space",
-        "command": "workbench.action.showCommands"
-    },
+    // C++
     {
         "key": "alt+a",
         "command": "C_Cpp.SwitchHeaderSource",
         "when": "editorTextFocus && editorLangId == 'cpp'"
     },
-    {
-        "key": "alt+a",
-        "command": "C_Cpp.SwitchHeaderSource",
-        "when": "editorTextFocus && editorLangId == 'c'"
-    },
-    {
-        "key": "ctrl+shift+t",
-        "command": "workbench.action.toggleSidebarVisibility"
-    },
-    {
-        "key": "ctrl+r",
-        "command": "workbench.action.debug.start",
-        "when": "resourceLangId == powershell && !inDebugMode"
-    },
+    // REMOVALS
     {
         "key": "ctrl+r",
         "command": "-workbench.action.openRecent"
     },
-    {
-        "key": "ctrl+r",
-        "command": "-workbench.action.quickOpenNavigateNextInRecentFilesPicker",
-        "when": "inQuickOpen && inRecentFilesPicker"
-    },
-    {
-        "key": "ctrl+alt+s",
-        "command": "workbench.action.debug.stop"
-    }
 ]
