@@ -94,12 +94,18 @@
     },
     {
         "key": "ctrl+b",
-        "command": "workbench.action.tasks.build"
+        "command": "workbench.action.tasks.runTask",
+        "args": "build"
     },
     {
         "key": "ctrl+r",
-        "command": "workbench.action.debug.start",
-        "when": "resourceLangId == powershell && !inDebugMode"
+        "command": "workbench.action.tasks.runTask",
+        "args": "run"
+    },
+    {
+        "key": "ctrl+alt+r",
+        "command": "workbench.action.tasks.runTask",
+        "args": "stop"
     },
     // TERMINAL
     {
