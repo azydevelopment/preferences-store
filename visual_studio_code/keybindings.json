@@ -89,23 +89,31 @@
     },
     // BUILD AND RUN
     {
+        "key": "ctrl+r",
+        "command": "workbench.action.debug.start"
+    },
+    {
+        "key": "ctrl+alt+r",
+        "command": "workbench.action.debug.stop"
+    },
+    {
         "key": "ctrl+t",
         "command": "workbench.action.tasks.runTask"
     },
     {
-        "key": "ctrl+b",
+        "key": "shift+alt+b",
         "command": "workbench.action.tasks.runTask",
-        "args": "build"
+        "args": "Docker Compose: Build"
     },
     {
-        "key": "ctrl+r",
+        "key": "shift+alt+u",
         "command": "workbench.action.tasks.runTask",
-        "args": "run"
+        "args": "Docker Compose: Up"
     },
     {
-        "key": "ctrl+alt+r",
+        "key": "shift+alt+d",
         "command": "workbench.action.tasks.runTask",
-        "args": "stop"
+        "args": "Docker Compose: Down"
     },
     // TERMINAL
     {
