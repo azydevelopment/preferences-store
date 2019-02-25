@@ -27,11 +27,6 @@
         "when": "editorTextFocus"
     },
     {
-        "key": "alt+shift+r",
-        "command": "editor.action.rename",
-        "when": "editorTextFocus"
-    },
-    {
         "key": "alt+w",
         "command": "editor.foldAll"
     },
@@ -93,6 +88,10 @@
         "command": "workbench.action.debug.start"
     },
     {
+        "key": "ctrl+shift+r",
+        "command": "workbench.action.debug.run"
+    },
+    {
         "key": "ctrl+alt+r",
         "command": "workbench.action.debug.stop"
     },
@@ -106,7 +105,7 @@
         "args": "Docker Compose: Build"
     },
     {
-        "key": "shift+alt+u",
+        "key": "shift+alt+r",
         "command": "workbench.action.tasks.runTask",
         "args": "Docker Compose: Up"
     },
