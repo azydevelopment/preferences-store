@@ -46,7 +46,7 @@
     },
     // ENVIRONMENT
     {
-        "key": "shift+space",
+        "key": "ctrl+b",
         "command": "workbench.view.explorer"
     },
     {
@@ -67,7 +67,7 @@
         "command": "workbench.action.terminal.toggleTerminal"
     },
     {
-        "key": "alt+c",
+        "key": "ctrl+g",
         "command": "workbench.action.toggleSidebarVisibility"
     },
     {
@@ -92,7 +92,7 @@
         "command": "workbench.action.debug.run"
     },
     {
-        "key": "ctrl+alt+r",
+        "key": "ctrl+alt+s",
         "command": "workbench.action.debug.stop"
     },
     {
@@ -130,5 +130,33 @@
     {
         "key": "ctrl+r",
         "command": "-workbench.action.openRecent"
+    },
+    {
+        "key": "ctrl+shift+r",
+        "command": "-editor.action.refactor",
+        "when": "editorHasCodeActionsProvider && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+j",
+        "command": "editor.action.rename",
+        "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "f2",
+        "command": "-editor.action.rename",
+        "when": "editorHasRenameProvider && editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+shift+j",
+        "command": "-workbench.action.search.toggleQueryDetails",
+        "when": "searchViewletVisible"
+    },
+    {
+        "key": "ctrl+g",
+        "command": "-workbench.action.gotoLine"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "-workbench.action.toggleSidebarVisibility"
     },
 ]
