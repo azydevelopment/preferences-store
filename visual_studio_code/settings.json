@@ -46,12 +46,13 @@
     "workbench.colorCustomizations": {
         "editor.background": "#ffffff",
         "activityBar.background": "#ffffff",
-        "activityBar.foreground": "#333333",
+        "activityBar.foreground": "#000000",
         "panel.background": "#ffffff",
         "sideBar.background": "#fafafa",
         "statusBar.background": "#f5f5f5",
         "statusBar.foreground": "#222222",
         "statusBarItem.hoverBackground": "#cccccc",
         "statusBarItem.activeBackground": "#bbbbbb"
-    }
+    },
+    "editor.codeLens": false
 }
