@@ -44,7 +44,6 @@
         "command": "cursorPageUp",
         "when": "editorTextFocus"
     },
-    // ENVIRONMENT
     {
         "key": "ctrl+b",
         "command": "workbench.view.explorer"
